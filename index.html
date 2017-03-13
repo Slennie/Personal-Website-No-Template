@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Alex Rennie</title>
+    <meta name=description content="Alex Rennie">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- First include jquery js -->
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+
+<body class="the-body">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Alex Rennie</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="profile-box">
+        <img src="images/me.jpg" class="prof-pic">
+        <h1>Alex Rennie</h1>
+        <h5>Budding Full Stack Developer</h5>
+        <p>I have always passionate about technology wanted to make the move into coding!</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/alex.rennie.56" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/alexander-rennie-b7014942/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://github.com/Slennie" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <!-- Gallery -->
+    <div class="container">
+        <div class="gallery-container">
+            <section>
+                <div class="page-header" id="gallery">
+                    <h2>Gallery.<small id="gallery"> Check out the Awesome Gallery</small></h2>
+                </div>
+                <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+                        <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+                        <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/Dashboard.PNG" alt="Text of the image">
+                            <div class="carousel-caption">
+                                <h3>Vault Training Tracker</h3>
+                                <p>Created an MVP for VaultRMS that was capable of monitoring certificate expiration dates, upcoming courses and policies.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/RoomMeLogin.PNG" alt="Text of the image">
+                            <div class="carousel-caption">
+                                <h3>RoomME application</h3>
+                                <p>Created an application allowing users to rent pout spare rooms, or find rooms available for rent.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/Mashape.PNG" alt="Text of the image">
+                            <div class="carousel-caption">
+                                <h3>Mashape Project</h3>
+                                <p>Used twitter API and Giphy API to generate popular Memes.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/Classroom.PNG" alt="Text of the image">
+                            <div class="carousel-caption">
+                                <h3>Classroom Manager</h3>
+                                <p>Created an app to omnitor upcoming classes, enrolled students and available teachers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Carousel inner -->
+                    <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+                <!-- End Carousel -->
+            </section>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="container">
+        <div class="contact-container" <section>
+            <div class="page-header" id="contact">
+                <h2>Contact ME.<small id="contact"> Please don't hesitate to contact me!</small></h2>
+            </div>
+            <!-- End Page Header -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>Send us a message, or contact us from the address below</p>
+                    <address id="contact">
+                        <strong>Alexander Rennie</strong></br>
+                        San Diego</br>
+                        alexrennie1986@gmail.com</br>
+                        P: (619) 955 0203 (US +1)
+                    </address>
+                </div>
+                <div class="col-lg-8">
+                    <form action="" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="user-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-name" placeholder="Enter you name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-email" placeholder="Enter you Email Address">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-url" class="col-lg-2 control-label">Your Website</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-email" placeholder="If you have Any.">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-message" class="col-lg-2 control-label">Any Message</label>
+                            <div class="col-lg-10">
+                                <textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
